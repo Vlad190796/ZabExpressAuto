@@ -1,30 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZabExpressAuto – Авто из Китая</title>
+    <title>ZabExpressAuto — Авто из Китая</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>ZabExpressAuto</h1>
-        <nav>
-            <a href="index.html">Главная</a>
-            <a href="services.html">Услуги</a>
-            <a href="gallery.html">Галерея</a>
-            <a href="reviews.html">Отзывы</a>
-            <a href="contacts.html">Контакты</a>
-        </nav>
+    <header class="main-header">
+        <div class="overlay">
+            <h1>ZabExpressAuto</h1>
+            <p>Автомобили из Китая под заказ</p>
+            <nav>
+                <a href="#features">Особенности</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Заказ авто из Китая</h2>
-            <p>Мы занимаемся доставкой автомобилей из Китая под ключ. Надежно, быстро и с гарантией.</p>
-        </section>
-    </main>
+
+    <section id="features" class="section">
+        <h2>Наши Услуги</h2>
+        <ul>
+            <li>Подбор авто под ваш бюджет</li>
+            <li>Прозрачная доставка и оформление</li>
+            <li>Гарантии и сопровождение на всех этапах</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Галерея</h2>
+        <div class="gallery">
+            <img src="images/161c0915-ff80-44e8-8cd9-a240d89a0a3e.jpeg" alt="Авто 1">
+            <img src="images/1a3841f2-08f3-4a21-8e3d-8c5243f1786d.jpeg" alt="Авто 2">
+            <img src="images/0cac7576-1309-4daf-9bc3-54097d80c0a8.jpeg" alt="Авто 3">
+        </div>
+    </section>
+
+    <section id="reviews" class="section">
+        <h2>Отзывы</h2>
+        <p>⭐⭐⭐⭐⭐ Отличный сервис! Привезли авто быстро и без проблем. — Алексей</p>
+        <p>⭐⭐⭐⭐⭐ Надёжная компания, всё прозрачно. — Мария</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Контакты</h2>
+        <p>Телефоны: +7 (914) 430-8080, +7 (999) 410-9088</p>
+        <p>Email: myllakhmetov@icloud.com</p>
+        <p>Telegram: <a href="https://t.me/ZabExpressAvto">@ZabExpressAvto</a></p>
+
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
     <footer>
-        <p>Свяжитесь с нами: +7 914 430-80-80, +7 999 410-90-88 | myllakhmetov@icloud.com</p>
+        <p>&copy; ZabExpressAuto 2025. Все права защищены.</p>
     </footer>
 </body>
 </html>
